@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework: Materialize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Página Inicial</a> |
+        <a href="https://materializecss.com/" target="_blank">Web Oficial de Materialize</a>
+
+    </nav>
+    <main>
+        <h1>Materialize</h1>
+        <p class="tagline">Materialize utiliza Material Design de Google para el desarrollo web.</p>
+        <img src="Imagenes\materialize_ejemplo.png" alt="Ejemplo de Materialize, siguiendo el estilo de Google"
+            style="max-width: 100%; height: auto;">
+
+        <section>
+            <h2>Características Principales</h2>
+            <p>Materialize se basa en la filosofía Material Design de Google. Al igual que Bootstrap, es un
+                framework de componentes, pero con una fuerte orientación "mobile first". Ofrece componentes
+                específicos de la interfaz de usuario de Android y Google, como el selector de fecha o el menú lateral.
+            </p>
+        </section>
+
+        <section>
+            <h2>Ventajas</h2>
+            <ul>
+                <li><strong>Estética Atractiva:</strong> Proporciona una estética familiar, moderna y robusta, con un
+                    estándar de
+                    diseño de alta gama.</li>
+                <li><strong>Rápida Implementación UI:</strong> Es fácil de usar y permite implementar rápidamente
+                    interfaces de
+                    usuario con un aspecto profesional.</li>
+                <li><strong>Componentes Únicos:</strong> Ofrece componentes bien diseñados y específicos de Material
+                    Design que no se
+                    encuentran en otros frameworks.</li>
+                <li><strong>Fácil de Implementar:</strong> Su estrategia de implementación es sencilla, incluso para
+                    desarrolladores
+                    poco experimentados.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Inconvenientes</h2>
+            <ul>
+                <li><strong>Diseño Estricto:</strong> La adhesión a Material Design limita la libertad de diseño si se
+                    busca una
+                    apariencia que se aleje de la estética de Google.</li>
+                <li><strong>Dependencia de JS:</strong> Requiere la inclusión de archivos Javascript para que sus
+                    componentes
+                    interactivos funcionen.</li>
+                <li><strong>Curva de Aprendizaje:</strong> Aunque la implementación es fácil, dominar su sistema de
+                    maquetación puede
+                    ser complejo si no se está acostumbrado al modo de trabajar de los frameworks de componentes.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Componentes</h2>
+            <ul>
+                <li><strong>Card:</strong> Al igual que en otros frameworks, la tarjeta es clave, pero Materialize la
+                    implementa con un énfasis en la profundidad y las sombras (Z-depth) para simular la metáfora de un
+                    objeto físico (de ahí el nombre "Material Design").</li>
+                <li><strong>Sidenav:</strong> Un componente crucial para la navegación en entornos móviles, que permite
+                    deslizar un menú lateral fuera de la pantalla. Es una característica estándar de la UI de
+                    Android/Google (requiere JS).</li>
+                <li><strong>Efecto Wave:</strong> Una funcionalidad distintiva que aplica un efecto visual de
+                    onda/ripple a los botones y otros elementos al hacer clic o tocar, proporcionando una respuesta
+                    táctil al usuario (requiere JS).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Instalacion</h2>
+            <p>Materialize requiere tanto el archivo CSS como el JavaScript, además de sus fuentes de iconos para el
+                Material Design.</p>
+
+            <div class="code-caption">Estructura HTML para la inclusión:</div>
+            <pre><code>
+&lt;!-- Íconos de Material Design -->
+&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;
+
+&lt;!-- CSS de Materialize -->
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"&gt;
+
+&lt;!-- JS de Materialize (al final del body) -->
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"&gt;&lt;/script&gt;
+    </code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>Volver a la <a href="index.html">Página Inicial</a> | <a href="conclusion.html">Ir a Conclusión</p>
+    </footer>
+</body>
+
+</html>
